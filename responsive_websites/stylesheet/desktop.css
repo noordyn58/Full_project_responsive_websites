@@ -1,0 +1,55 @@
+@media only screen and (min-width: 1140px) { 
+
+
+    header, nav,.row,footer {
+
+        max-width: 1140px;
+        margin: 0 auto; /*centers everything on the page*/
+    }
+
+
+   /* ------Header------- */
+
+   header {
+       padding-top: 2em;
+       padding-bottom: 1em;
+   }
+
+   /* -----Banner section-------- */
+
+
+   #banner {
+    background-image: url(../all_images/hero_desktop2.jpg);
+     /* background-repeat: no-repeat; */
+    background-color: #fff; 
+    height: 500px;
+    background-position: center;
+}
+    
+
+
+   /* --------Navigation--------- */
+   
+  nav ul {padding-left: 1%;} 
+  nav ul li a:hover {text-decoration: underline;}
+  nav ul li{width: auto;}
+  nav ul li a {padding: .2em 1.5em;}
+
+
+  /* --------Content------------ */
+
+
+
+
+  /* --------Column-------------- */
+
+
+  .column-2{
+      width: 16.666%;
+  }
+
+
+
+ 
+
+}      /*end of media query*/

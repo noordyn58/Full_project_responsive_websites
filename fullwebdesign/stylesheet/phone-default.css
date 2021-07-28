@@ -1,0 +1,152 @@
+/* ---------this is to prevent iphone from resizing on a landscape mode---------- */
+html {-webkit-text-size-adjust: none;} 
+
+/*------- to apply natural box layout model to all elements--------- */
+
+* {box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+
+/* ---------script to help old ie understand html5 and media query--------- */
+
+
+
+     /* ------- body--------- */
+body {
+    font-size: 16px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+}
+ 
+ /*-------- header----------- */
+#headerwrapper{
+    background-color: blueviolet;
+    
+}
+
+header{
+    padding: 1em 2% .5em 2%; 
+}
+
+header h1{
+    font-size: 2.1em;
+    color:#fff;
+}
+
+header h2{
+    font-size: .9em;
+    font-weight: 300;
+    margin-top: .75em;
+    color: #ddd;
+} /*----- header ends here------*/
+
+
+
+/* ----------Navigation starts here------- */
+
+#navwrapper {
+    background-color: #e22121;
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+}
+
+nav ul li a {
+    display: block;
+    font-size: .9em;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    margin: .6em 0;
+    border-right: 3px solid rgba(255,255,255,0.3);
+    text-align: center;
+}
+
+/* this turns off the last border */
+
+nav ul li:last-child a {
+    border-right: none;
+}
+
+
+
+
+/*------------- Content ------------------*/
+
+#contentwrapper {
+    background-color: #fff;
+}
+
+/* #contentwrapper .row {
+    background-color: tan;
+    border-bottom: 1px orange dashed;
+} */
+
+#contentwrapper .row:after{
+
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#contentwrapper h1 {
+    color: #e22121;
+    font-size: 2em;
+    padding-top: 1em;
+    text-shadow: 1px 1px 2px #999;
+}
+
+
+      /* ----Column----- */
+
+      .column-12, .column-6, .column-4, .column-3, .column-2 {
+          padding: .5em 2%;
+      }
+
+      .column-2{width: 50%; float: left;}
+      .column-2 img{width: 100%;}
+
+
+      .color-1, .color-2{
+          padding: .5em 3% .5em 3%;
+      }
+
+      .color-1{
+        background-color: yellowgreen;
+      }
+
+      .color-2{
+        background-color: rgb(24, 224, 174);
+      }
+
+      
+
+
+
+
+
+
+
+    /* --------footer------------ */
+
+#footerwrapper {background-color: #979791;}
+
+footer{
+    clear: both;
+    font-size: .7em;
+    color: #fff;
+    text-align: center;
+    padding: .6em;
+}
+
+   /* ---------Other Stuff------------- */
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
